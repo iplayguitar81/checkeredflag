@@ -18,7 +18,7 @@
 
                     @endforeach
 
-                    <p>START CARDS DB CALL:</p>
+                    <p>Cards CALL:</p>
                     @foreach($cards as $item)
                         <p>{{ $item->title }}</p>
 
