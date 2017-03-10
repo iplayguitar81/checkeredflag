@@ -113,7 +113,7 @@
 
 <script type="text/javascript" src="//code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
 {{--<script type="text/javascript" src="https://maps-api-ssl.google.com/maps/api/js?v=3&amp;libraries=geometry"></script>--}}
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQdVUBRQViyrdnmO6-cQnH_Xy8-wW-P6Y&callback=initMap"
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQdVUBRQViyrdnmO6-cQnH_Xy8-wW-P6Y&callback=initialize"
         type="text/javascript"></script>
 
 {{--AIzaSyCQdVUBRQViyrdnmO6-cQnH_Xy8-wW-P6Y--}}
