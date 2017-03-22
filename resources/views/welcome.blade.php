@@ -25,7 +25,10 @@
                         @endforeach
 
 
-
+                        <div id="search_holder">
+                            <input id="address"  data-clear-btn="true"  data-theme="a" data-type="search" placeholder="Address, City, State, or Zip"/>
+                            <a data-role='button'  data-icon='search' data-theme="a" data-iconpos="right" onclick="codeAddress();"><span class="orangose3">Switch Location</span></a>
+                        </div>
                         <div id="wrappa">
                             <div id="loading_animation"><h3 class="contact_header">Finding locations near you...</h3><img src="loader.gif" alt="loading location"/> <img src="loader.gif" alt="loading location"/><img src="loader.gif" alt="loading location"/></div>
                             <div id="map_canvas"></div>
