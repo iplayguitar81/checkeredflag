@@ -106,8 +106,9 @@
 {{--change the http to https in this once i switch it to HTTPS!!!--}}
 {{--<script  src="{{URL::to(asset('/js/jquery.js'))}}"></script>--}}
 
-<script type="text/javascript" src="//code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js" ></script>
+
 <script type="text/javascript"  src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" ></script>
+<script type="text/javascript" src="//code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js" ></script>
 <script src="{{URL::to(asset('/js/bootstrap.min.js'))}}"></script>
 
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
