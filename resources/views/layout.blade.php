@@ -258,6 +258,23 @@
     <div data-role="footer" style="overflow:hidden;" data-fullscreen="true" data-theme="b" data-tap-toggle="false">
         <span class="credit">checkenginefree.com &copy; 2017</span><br/>
         <p class="disclaimer">*We make no guarantees that the location information given on this site is accurate.  If you find that there is an inaccurate location listing then please take the time to report it to us using the ''Report this as inaccurate' link.  This will help to ensure that the integrity of our data is to the benefit of yourself and other users.  If you wish to add a new location that folks are able to get their check engine light diagnosed for free then please visit the contact page in order to submit that information to us.  Once it is confirmed we will add it to our databases.  We also make no guarantees that the location listed will offer a free check engine light diagnostic.  This site makes a point of listing the chains that are famous for making such offerings.  Thanks for visiting!  Please tell your friends!  :D</p>
+        <ul class="nav navbar-nav navbar-right">
+        <!-- Authentication Links -->
+        @if (Auth::guest())
+        <li><a href="{{ url('/login') }}">Login</a></li>
+        <li><a href="{{ url('/register') }}">Register</a></li>
+        @else
+        <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+        {{ Auth::user()->name }} <span class="caret"></span>
+        </a>
+
+        <ul class="dropdown-menu" role="menu">
+        <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+        </ul>
+        </li>
+        @endif
+        </ul>
     </div><!-- /footer -->
 </div>
 {{--<div data-role="page" data-theme="b" id="about">--}}
