@@ -211,7 +211,7 @@
     }
     (document, 'script', 'facebook-jssdk'));
 </script>
-<div  id="mappins">
+<div >
     <div style="overflow:hidden;"  data-tap-toggle="false">
         <img class='img-responsive' alt='nearbynativecasinos.com' src='images/checkenginelogoyay3.png'/>
         <div data-role="navbar">
