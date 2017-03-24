@@ -30,7 +30,7 @@
                             <a data-role='button'  data-icon='search' data-theme="a" data-iconpos="right" onclick="codeAddress();"><span class="orangose3">Switch Location</span></a>
                         </div>
                         <div id="wrappa">
-                            <div id="loading_animation"><h3 class="contact_header">Finding locations near you...</h3><img src="images/loader.gif" alt="loading location"/> <img src="loader.gif" alt="loading location"/><img src="loader.gif" alt="loading location"/></div>
+                            <div id="loading_animation"><h3 class="contact_header">Finding locations near you...</h3><img src="images/loader.gif" alt="loading location"/> <img src="images/loader.gif" alt="loading location"/><img src="images/loader.gif" alt="loading location"/></div>
                             <div id="map_canvas"></div>
                             <br/>
                             <div id="sidebar" data-role="collapsible">
