@@ -213,7 +213,7 @@
 </script>
 <div >
     <div style="overflow:hidden;"  data-tap-toggle="false">
-        <img class='img-responsive' alt='nearbynativecasinos.com' src='images/checkenginelogoyay3.png'/>
+        <img class='img-responsive' alt='checkenginefree.com' src='images/checkenginelogoyay3.png'/>
         <div data-role="navbar">
             <ul class="nav-trickery">
                 <li><a href="#mappins" class="ui-state-persist" data-icon="navigation"><span class="orangose">Map</span></a></li>
@@ -260,7 +260,7 @@
         {{--<br/>--}}
         {{--<br/>--}}
     {{--</div>--}}
-    <div data-role="footer" style="overflow:hidden;" data-fullscreen="true" data-theme="b" data-tap-toggle="false">
+    <div  style="overflow:hidden;" data-fullscreen="true"  data-tap-toggle="false">
         <span class="credit">checkenginefree.com &copy; 2017</span><br/>
         <p class="disclaimer">*We make no guarantees that the location information given on this site is accurate.  If you find that there is an inaccurate location listing then please take the time to report it to us using the ''Report this as inaccurate' link.  This will help to ensure that the integrity of our data is to the benefit of yourself and other users.  If you wish to add a new location that folks are able to get their check engine light diagnosed for free then please visit the contact page in order to submit that information to us.  Once it is confirmed we will add it to our databases.  We also make no guarantees that the location listed will offer a free check engine light diagnostic.  This site makes a point of listing the chains that are famous for making such offerings.  Thanks for visiting!  Please tell your friends!  :D</p>
         <ul class="nav navbar-nav navbar-right">
@@ -364,5 +364,5 @@
 
 
 
-</div>
+</body>
 </html>
