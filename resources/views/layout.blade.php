@@ -212,7 +212,7 @@
     (document, 'script', 'facebook-jssdk'));
 </script>
 <div >
-    <div style="overflow:hidden;"  data-tap-toggle="false">
+    <div style="overflow:hidden;" >
         <img class='img-responsive' alt='checkenginefree.com' src='images/checkenginelogoyay3.png'/>
         <div data-role="navbar">
             <ul class="nav-trickery">
