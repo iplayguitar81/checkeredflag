@@ -83,7 +83,7 @@
     }
     (document, 'script', 'facebook-jssdk'));
 </script>
-
+@yield('content')
 
 </body>
 </html>
