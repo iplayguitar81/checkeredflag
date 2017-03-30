@@ -2,11 +2,6 @@
 
 @section('content')
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-            <div class="panel panel-default">
-                <div class="panel-heading">Welcome</div>
 
                 <div class="">
 
@@ -45,11 +40,6 @@
                             <br/>
                             <br/>
 
-</div>
-                </div>
-            </div>
-</div>
-    </div>
 {{--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQdVUBRQViyrdnmO6-cQnH_Xy8-wW-P6Y&callback=initialize"--}}
 {{--type="text/javascript"></script>--}}
 
