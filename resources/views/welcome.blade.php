@@ -178,7 +178,7 @@
 
         function runQuery() {
             var tableid = '1hFcGeKfBgELMvxajsoMvgabWJX9jwNDKUB4HoAxG#gid=0';
-            var uri = "SELECT geometry FROM " + tableid ;
+            var uri = "SELECT 'Location', 'Fcilty_nam' AS 'Store Name', 'Locality' AS 'Address/Phone','telephone', 'latitude-col','longitude-col' FROM "+tableid+" ORDER BY ST_DISTANCE(Location, LATLNG("+t+","+n+")) LIMIT 3";
             var queryText = "https://spreadsheets.google.com/tq?key=" + encodeURIComponent(uri);
             var query = new google.visualization.Query(queryText);
             query.setQuery("select B");
