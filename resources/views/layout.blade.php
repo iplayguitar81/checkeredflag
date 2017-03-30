@@ -85,7 +85,7 @@
 </script>
 <div data-role="page" data-theme="b" id="mappins">
     <div data-role="header" style="overflow:hidden;" data-theme="b"  data-tap-toggle="false">
-        <img class='img-responsive' alt='nearbynativecasinos.com' src='/images/checkenginelogoyay3.png'/>
+        <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
         <div data-role="navbar">
             <ul class="nav-trickery">
                 <li><a href="#mappins" class="ui-state-persist" data-icon="navigation"><span class="orangose">Map</span></a></li>
@@ -101,15 +101,15 @@
             @media(min-width: 500px) { .checkrespond1 { width: 468px; height: 60px; } }
             @media(min-width: 800px) { .checkrespond1 { width: 728px; height: 90px; } }
         </style>
-        <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- checkrespond1 -->
-        <ins class="adsbygoogle checkrespond1"
-             style="display:inline-block"
-             data-ad-client="ca-pub-4617308558434719"
-             data-ad-slot="7732229387"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+        {{--<script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>--}}
+        {{--<!-- checkrespond1 -->--}}
+        {{--<ins class="adsbygoogle checkrespond1"--}}
+             {{--style="display:inline-block"--}}
+             {{--data-ad-client="ca-pub-4617308558434719"--}}
+             {{--data-ad-slot="7732229387"></ins>--}}
+        {{--<script>--}}
+            {{--(adsbygoogle = window.adsbygoogle || []).push({});--}}
+        {{--</script>--}}
 
     </div>
     <br/>
@@ -127,7 +127,7 @@
         <br/>
         <hr>
         <br/>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        {{--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>--}}
         <br/>
         <br/>
         <div class="fb-like-box" data-href="https://www.facebook.com/checkenginefree" data-colorscheme="dark" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
