@@ -85,7 +85,7 @@
 </script>
 <div data-role="page" data-theme="b" id="mappins">
     <div data-role="header" style="overflow:hidden;" data-theme="b"  data-tap-toggle="false">
-        <img class='img-responsive' alt='nearbynativecasinos.com' src='checkenginelogoyay3.png'/>
+        <img class='img-responsive' alt='nearbynativecasinos.com' src='/images/checkenginelogoyay3.png'/>
         <div data-role="navbar">
             <ul class="nav-trickery">
                 <li><a href="#mappins" class="ui-state-persist" data-icon="navigation"><span class="orangose">Map</span></a></li>
@@ -141,7 +141,7 @@
 </div>
 <div data-role="page" data-theme="b" id="about">
     <div data-role="header" data-tap-toggle="false" data-theme="b">
-        <img class='img-responsive' alt='checkenginefree.com' src='checkenginelogoyay3.png'/>
+        <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
         <div data-role="navbar">
             <ul class="nav-trickery">
                 <li><a href="#mappins"  data-icon="navigation"><span class="orangose">Map</span></a></li>
@@ -171,7 +171,7 @@
 
 <div data-role="page" data-theme="b" id="contact">
     <div data-role="header" style="overflow:hidden;" data-tap-toggle="false" data-theme="b">
-        <img class='img-responsive' alt='checkenginefree.com' src='checkenginelogoyay3.png'/>
+        <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
         <div data-role="navbar">
             <ul class="nav-trickery">
                 <li><a href="#mappins"  data-icon="navigation"><span class="orangose">Map</span></a></li>
