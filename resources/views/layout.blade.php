@@ -195,8 +195,8 @@
 
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/1-col-portfolio.css">
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    {{--<link rel="stylesheet" href="/css/bootstrap.css">--}}
+    {{--<link rel="stylesheet" href="/css/bootstrap.min.css">--}}
 </head>
 <body>
 <div id="fb-root"></div>
