@@ -3,7 +3,7 @@
 @section('content')
 
 
-
+                <div class="">
 
 
                     @foreach($posts as $item)
@@ -39,6 +39,8 @@
                             <div class="fb-like-box" data-href="https://www.facebook.com/checkenginefree" data-colorscheme="dark" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
                             <br/>
                             <br/>
+
+</div>
 
 {{--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQdVUBRQViyrdnmO6-cQnH_Xy8-wW-P6Y&callback=initialize"--}}
 {{--type="text/javascript"></script>--}}
