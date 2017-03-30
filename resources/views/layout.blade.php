@@ -368,7 +368,6 @@
 <script type="text/javascript" src="jquery.validate.min.js"></script>
 
 
-<script type="text/javascript" src="https://maps-api-ssl.google.com/maps/api/js?sensor=false&amp;v=3&amp;libraries=geometry" ></script>
 
 </body>
 </html>
