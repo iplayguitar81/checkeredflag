@@ -54,7 +54,7 @@
 {{--type="text/javascript"></script>--}}
 
 {{--AIzaSyCQdVUBRQViyrdnmO6-cQnH_Xy8-wW-P6Y--}}
-
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script type="text/javascript" src="https://maps-api-ssl.google.com/maps/api/js?sensor=false&amp;v=3&amp;libraries=geometry" ></script>
 
                         <script type="text/javascript">
