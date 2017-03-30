@@ -3,7 +3,7 @@
 @section('content')
 
 
-                <div class="">
+
 
 
                     @foreach($posts as $item)
