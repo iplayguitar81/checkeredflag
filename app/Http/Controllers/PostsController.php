@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Input;
 
 
 use Redirect;
+use Image;
 
 
 
