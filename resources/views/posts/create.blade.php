@@ -76,48 +76,10 @@
 
 @endsection
 
-@section('footer')
+
     <script  src="{{URL::to(asset('/js/jquery.js'))}}"></script>
-    <script type="text/javascript">
-
-        $(function() {
-            $("input:file").change(function (){
-                //need to make it so it strips first 12 characters before saving as filename in javascript...
-                var fileName = $(this).val();
-                $(".filename").val(fileName.substring(12));
-                $(".filename").show();
-                $(".img_string").show();
-                $("#blah2").show();
-
-
-            });
-        });
-
-
-        $(document).ready(function(){
-        $(".filename").hide();
-        $(".img_string").hide();
-        $("#blah2").hide();
+    <script src="{{url('/js/image_upload.js')}}"></script>
 
 
 
-        });
 
-        function readURL(input) {
-            if (input.files && input.files[0]) {
-                var reader = new FileReader();
-
-                reader.onload = function (e) {
-                    $('#blah')
-                            .attr('src', e.target.result)
-                            .width(150)
-                            .height(200);
-                };
-
-                reader.readAsDataURL(input.files[0]);
-            }
-        }
-
-    </script>
-
-    @endsection
