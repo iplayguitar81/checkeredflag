@@ -79,17 +79,7 @@ $this->validate($request,[
             echo 'Uploaded<br/>';
             $file = Input::file('file');
             $file->move('images', $file->getClientOriginalName());
-            echo'<img src"https://level.checkenginefree.com/images/'.$file->getClientOriginalName() .'"/>';
-
-
-            $photo2= Input::file('file');
-
-            $filename = uniqid(). $photo2->getClientOriginalName();
-
-            $photo2->move('images/', $filename);
-            $thumb_string="md-img-".$filename;
-            Image::make( 'https://level.checkenginefree.com/images/'.$filename)->resize(600, 270)->save('images/'.$thumb_string);
-
+            echo'<img src"images/'.$file->getClientOriginalName() .'"/>';
 
         }
 
