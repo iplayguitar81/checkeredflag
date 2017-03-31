@@ -8,7 +8,7 @@
             <div data-role="navbar">
                 <ul class="nav-trickery">
                     <li><a href="/"  data-icon="navigation"><span class="orangose">Map</span></a></li>
-                    <li><a href="/#about" class="ui-state-persist" data-icon="info"><span class="orangose">About</span></a></li>
+                    <li><a href="/#about" data-icon="info"><span class="orangose">About</span></a></li>
                     <li><a href="/#contact" data-icon="mail"><span class="orangose">Contact</span></a></li>
                 </ul>
             </div><!-- /navbar -->
