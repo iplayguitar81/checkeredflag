@@ -78,29 +78,6 @@
 
 @endsection
 
-@section('footer')
+
     <script  src="{{URL::to(asset('/js/jquery.js'))}}"></script>
-    <script type="text/javascript">
-
-        $(function() {
-            $("input:file").change(function (){
-                //need to make it so it strips first 12 characters before saving as filename in javascript...
-                var fileName = $(this).val();
-                $(".filename").val(fileName.substring(12));
-                $(".filename").show();
-                $(".img_string").show();
-
-
-            });
-        });
-
-
-        $(document).ready(function(){
-            $(".filename").hide();
-            $(".img_string").hide();
-
-
-        });
-    </script>
-
-@endsection
+    <script src="{{url('/js/image_upload.js')}}"></script>
