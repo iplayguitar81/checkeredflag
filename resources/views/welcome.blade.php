@@ -21,6 +21,7 @@
                 @media(min-width: 500px) { .checkrespond1 { width: 468px; height: 60px; } }
                 @media(min-width: 800px) { .checkrespond1 { width: 728px; height: 90px; } }
             </style>
+            <img class='img-responsive' alt='checkenginefree.com' src='/images/placeholder_banner_ad.jpg'/>
             {{--<script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>--}}
             {{--<!-- checkrespond1 -->--}}
             {{--<ins class="adsbygoogle checkrespond1"--}}
